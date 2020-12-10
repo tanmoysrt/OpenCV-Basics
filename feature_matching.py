@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img1= cv2.imread('sentdex/opencv-feature-matching-template.jpg',1)
-img2 = cv2.imread('sentdex/opencv-feature-matching-image.jpg',1)
+img1= cv2.imread('opencv-feature-matching-template.jpg',1)
+img2 = cv2.imread('opencv-feature-matching-image.jpg',1)
 
 
 orb = cv2.ORB_create()
